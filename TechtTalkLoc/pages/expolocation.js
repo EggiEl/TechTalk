@@ -12,7 +12,7 @@ export default function LocationScreen() {
 
  useEffect(() => { 
   const getPermission = async () => {
-    let {status} = await Location.requestForegroundPermissionsAsync();
+    let {status} = await Location.requestForegroundPermissionsAsync(); // Erwähnen wie Backgroundlocation funktioniert 
     if (status !== 'granted') {
       console.log('Permission to access location was denied');
       return;
