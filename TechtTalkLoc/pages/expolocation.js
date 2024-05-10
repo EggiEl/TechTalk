@@ -1,4 +1,3 @@
-import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, Dimensions } from 'react-native';
 import { useState, useEffect } from 'react';
 import * as Location from "expo-location";
